@@ -5,6 +5,7 @@ public class Car {
 		//changes made for HIS-122
 		int i=10;
 		int j=20;
+		int k=30;
 	}
 	
 	
