@@ -10,7 +10,11 @@ public class SpringBoot01AppApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run= SpringApplication.run(SpringBoot01AppApplication.class, args);
 		//changes for HIS-134
-int a=10;
+i		nt a=10;
+			//HIS-200 related
+		public void doProcess(){
+			//some logic here
+		}
 		run.close();
 	}
 
